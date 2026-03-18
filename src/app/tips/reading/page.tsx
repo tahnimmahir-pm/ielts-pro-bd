@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
@@ -18,9 +19,7 @@ export default function ReadingTipsPage() {
                             {/* Card 1 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop"
-                                        alt="Academic Reading"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Academic Reading" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -34,9 +33,7 @@ export default function ReadingTipsPage() {
                             {/* Card 2 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop"
-                                        alt="Speaking Module"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop" alt="Speaking Module" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full uppercase">Beginner</span>
                                 </div>
                                 <div className="p-2">
@@ -50,9 +47,7 @@ export default function ReadingTipsPage() {
                             {/* Card 3 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Writing Task 1 & 2"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop" alt="Writing Task 1 & 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-primary text-white text-[10px] font-bold rounded-full uppercase">All Levels</span>
                                 </div>
                                 <div className="p-2">
@@ -66,9 +61,7 @@ export default function ReadingTipsPage() {
                             {/* Card 4 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1557133373-2efaad0bd50a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Listening Mastery"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Listening Mastery" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -82,9 +75,7 @@ export default function ReadingTipsPage() {
                             {/* Duplicate set for seamless loop */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop"
-                                        alt="Academic Reading"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Academic Reading" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -97,9 +88,7 @@ export default function ReadingTipsPage() {
                             </div>
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop"
-                                        alt="Speaking Module"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop" alt="Speaking Module" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full uppercase">Beginner</span>
                                 </div>
                                 <div className="p-2">
@@ -112,9 +101,7 @@ export default function ReadingTipsPage() {
                             </div>
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Writing Task 1 & 2"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop" alt="Writing Task 1 & 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-primary text-white text-[10px] font-bold rounded-full uppercase">All Levels</span>
                                 </div>
                                 <div className="p-2">
@@ -127,9 +114,7 @@ export default function ReadingTipsPage() {
                             </div>
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1557133373-2efaad0bd50a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Listening Mastery"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Listening Mastery" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -175,7 +160,7 @@ export default function ReadingTipsPage() {
                         <article className="bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden card-shadow hover:-translate-y-1 transition-all duration-300 hover:shadow-xl hover:border-primary/30 flex flex-col h-full">
                             {/* Image */}
                             <div className="relative aspect-[4/3] overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop" alt="Reading book" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                <Image src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop" alt="Reading book" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm px-3 py-1 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1">
                                     <span className="material-symbols-outlined text-[14px] text-primary">schedule</span> 5 min read
                                 </div>
@@ -205,7 +190,7 @@ export default function ReadingTipsPage() {
                     <Link href="/tips/reading/true-false-not-given" className="block h-full group outline-none overflow-visible">
                         <article className="bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden card-shadow hover:-translate-y-1 transition-all duration-300 hover:shadow-xl hover:border-primary/30 flex flex-col h-full">
                             <div className="relative aspect-[4/3] overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                <img src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=800&auto=format&fit=crop" alt="Studying at desk" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                <Image src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=800&auto=format&fit=crop" alt="Studying at desk" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm px-3 py-1 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1">
                                     <span className="material-symbols-outlined text-[14px] text-primary">schedule</span> 6 min read
                                 </div>
@@ -231,7 +216,7 @@ export default function ReadingTipsPage() {
                     <Link href="/tips/reading/matching-headings" className="block h-full group outline-none overflow-visible">
                         <article className="bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden card-shadow hover:-translate-y-1 transition-all duration-300 hover:shadow-xl hover:border-primary/30 flex flex-col h-full">
                             <div className="relative aspect-[4/3] overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=800&auto=format&fit=crop" alt="Student highlighting" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                <Image src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=800&auto=format&fit=crop" alt="Student highlighting" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm px-3 py-1 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1">
                                     <span className="material-symbols-outlined text-[14px] text-primary">schedule</span> 7 min read
                                 </div>
@@ -257,7 +242,7 @@ export default function ReadingTipsPage() {
                     <Link href="/tips/reading/time-management" className="block h-full group outline-none overflow-visible">
                         <article className="bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden card-shadow hover:-translate-y-1 transition-all duration-300 hover:shadow-xl hover:border-primary/30 flex flex-col h-full">
                             <div className="relative aspect-[4/3] overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=800&auto=format&fit=crop" alt="Books on a desk" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                <Image src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=800&auto=format&fit=crop" alt="Books on a desk" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm px-3 py-1 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1">
                                     <span className="material-symbols-outlined text-[14px] text-primary">schedule</span> 4 min read
                                 </div>

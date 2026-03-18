@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default async function TipPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -33,7 +34,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                     <div className="flex items-center gap-4 mb-10 pb-10 border-b border-slate-100 dark:border-slate-800">
                         <div className="w-12 h-12 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden ring-2 ring-violet-600/20 p-0.5">
                             <div className="w-full h-full rounded-full overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" />
+                                <Image src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" width={600} height={400} />
                             </div>
                         </div>
                         <div>
@@ -53,11 +54,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
 
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-2xl relative border border-slate-200 dark:border-slate-800">
-                        <img 
-                            src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?q=80&w=1600&auto=format&fit=crop" 
-                            alt="Featured Tip Image" 
-                            className="w-full h-full object-cover"
-                        />
+                        <Image src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?q=80&w=1600&auto=format&fit=crop" alt="Featured Tip Image" className="w-full h-full object-cover" width={600} height={400} />
                     </div>
                 </div>
             </section>
@@ -79,7 +76,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                             </p>
 
                             <blockquote className="border-l-4 border-violet-600 bg-violet-600/5 p-6 rounded-r-xl my-8 italic text-slate-700 dark:text-slate-300 font-medium">
-                                "The examiner is not looking for a novel. They are looking for a clear argument, supported by structured logic."
+                                &quot;The examiner is not looking for a novel. They are looking for a clear argument, supported by structured logic.&quot;
                             </blockquote>
 
                             <div className="my-10 w-full h-px bg-slate-200 dark:bg-slate-800"></div>
@@ -131,7 +128,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     <span className="material-symbols-outlined text-violet-600 mr-2">edit_document</span>
                                     Introduction Exercise
                                 </h4>
-                                <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm font-bold">PROMPT: "Some people believe that university education should be free for everyone. Do you agree or disagree?"</p>
+                                <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm font-bold">PROMPT: &quot;Some people believe that university education should be free for everyone. Do you agree or disagree?&quot;</p>
                                 <div className="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-700 rounded-xl font-medium shadow-sm">
                                     <p className="mb-2"><span className="text-violet-600 dark:text-violet-400 font-bold">Paraphrase:</span> It is argued by some that tertiary education should be fully subsidized by the government without placing a financial burden on individuals.</p>
                                     <p><span className="text-violet-600 dark:text-violet-400 font-bold">Thesis:</span> I completely agree with this notion, as it promotes social equality and ensures an educated workforce driving long-term economic growth.</p>
@@ -178,7 +175,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 1 */}
                                     <Link href="/tips/writing/academic-task-1-graphs" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -190,7 +187,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 2 */}
                                     <Link href="/tips/writing/general-task-1-letters" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1596230529625-07cebd08638b?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1596230529625-07cebd08638b?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -202,7 +199,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 3 */}
                                     <Link href="/tips/writing/lexical-resource-tips" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">

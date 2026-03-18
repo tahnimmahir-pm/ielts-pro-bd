@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function AdminDashboardPage() {
@@ -50,7 +51,7 @@ export default function AdminDashboardPage() {
                     <div className="flex items-center space-x-3 px-2">
                         <div className="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img alt="Admin user avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFn6EYqocGrZ3rq6iO3yxGJIjebx7W9dLkoSub52KVSXp5_x6Lq4Y35l55q0HaL6g1MZjrE6PetRVT-F2Xu4x2XQa-Ad7aSA8J4kMbrxmu5JvBDpNBMqK_SiGGVoW7a3ccM2MdWwWfwTl6w3RlhteXGf6ZCGfZYYcmCQ8h8oqQ9tTKFUsGcq7v987IJP9HhV86eEu8hzPuhP2GFw8G44trIRjf7PICV4INNZFIvyARYWxY7HVCK5y-i_C-wKc308npt_t0E356to8H" className="w-full h-full object-cover" />
+                            <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFn6EYqocGrZ3rq6iO3yxGJIjebx7W9dLkoSub52KVSXp5_x6Lq4Y35l55q0HaL6g1MZjrE6PetRVT-F2Xu4x2XQa-Ad7aSA8J4kMbrxmu5JvBDpNBMqK_SiGGVoW7a3ccM2MdWwWfwTl6w3RlhteXGf6ZCGfZYYcmCQ8h8oqQ9tTKFUsGcq7v987IJP9HhV86eEu8hzPuhP2GFw8G44trIRjf7PICV4INNZFIvyARYWxY7HVCK5y-i_C-wKc308npt_t0E356to8H" alt="Admin user avatar" className="w-full h-full object-cover" width={600} height={400} />
                         </div>
                         <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium truncate">Admin User</p>

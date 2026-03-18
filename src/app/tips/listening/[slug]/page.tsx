@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default async function TipPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -33,7 +34,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                     <div className="flex items-center gap-4 mb-10 pb-10 border-b border-slate-100 dark:border-slate-800">
                         <div className="w-12 h-12 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden ring-2 ring-primary/20 p-0.5">
                             <div className="w-full h-full rounded-full overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" />
+                                <Image src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" width={600} height={400} />
                             </div>
                         </div>
                         <div>
@@ -53,11 +54,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
 
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-2xl relative border border-slate-200 dark:border-slate-800">
-                        <img 
-                            src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=1600&auto=format&fit=crop" 
-                            alt="Featured Tip Image" 
-                            className="w-full h-full object-cover"
-                        />
+                        <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=1600&auto=format&fit=crop" alt="Featured Tip Image" className="w-full h-full object-cover" width={600} height={400} />
                     </div>
                 </div>
             </section>
@@ -79,7 +76,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                             </p>
 
                             <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-xl my-8 italic text-slate-700 dark:text-slate-300 font-medium">
-                                "The key to mastering MCQs is not just listening for the words in the options, but understanding the meaning and the speaker's final intent."
+                                &quot;The key to mastering MCQs is not just listening for the words in the options, but understanding the meaning and the speaker&apos;s final intent.&quot;
                             </blockquote>
 
                             <div className="my-10 w-full h-px bg-slate-200 dark:bg-slate-800"></div>
@@ -91,7 +88,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                 Wait Before You Write
                             </h3>
                             <p>
-                                Do not immediately write down the first answer you hear that matches an option. The speaker might say: <em>"We originally planned to meet at 3 PM, but then John had a conflict so we pushed it to 4 PM."</em> If you just listened for a time, 3 PM is a distractor. Wait for the complete thought.
+                                Do not immediately write down the first answer you hear that matches an option. The speaker might say: <em>&quot;We originally planned to meet at 3 PM, but then John had a conflict so we pushed it to 4 PM.&quot;</em> If you just listened for a time, 3 PM is a distractor. Wait for the complete thought.
                             </p>
 
                             <h3 className="text-xl font-bold text-slate-900 dark:text-white mt-8 mb-3 flex items-center">
@@ -126,7 +123,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                 </h4>
                                 <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm font-bold">LISTEN TO THIS MOCK SNIPPET:</p>
                                 <div className="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-700 rounded-xl italic font-medium shadow-sm">
-                                    "I was thinking about taking the train because it's usually faster, but looking at the current timetable, it seems there are huge delays. So I've decided to just drive there, even though parking will be a nightmare."
+                                    &quot;I was thinking about taking the train because it&apos;s usually faster, but looking at the current timetable, it seems there are huge delays. So I&apos;ve decided to just drive there, even though parking will be a nightmare.&quot;
                                 </div>
                                 <div className="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-700 rounded-xl mt-4 shadow-sm">
                                     <p className="mt-2 font-bold text-slate-900 dark:text-white mb-4"><span className="text-primary mr-2 leading-none">Q:</span> How will the speaker travel?</p>
@@ -178,7 +175,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 1 */}
                                     <Link href="/tips/listening/note-taking-guide" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -190,7 +187,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 2 */}
                                     <Link href="/tips/listening/spelling-mistakes" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -202,7 +199,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 3 */}
                                     <Link href="/tips/listening/map-labeling" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">

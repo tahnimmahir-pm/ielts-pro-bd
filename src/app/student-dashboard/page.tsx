@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import Chart from 'chart.js/auto';
 
@@ -140,7 +141,7 @@ export default function StudentDashboardPage() {
                                 <p className="text-xs text-slate-500">IELTS Candidate</p>
                             </div>
                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img alt="Profile" className="w-10 h-10 rounded-full border-2 border-slate-200 dark:border-slate-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkjzTzfj3CwOnQnCMSvbLIkYvIvGW9M_et1_8F2AC1B0MrYegPHsVjV2wvusvaurgFBXcU9vYWmVRZn_uBb5BR0_qluDhZN6tmYhnENKclIGvIPP1z15N4qkQWD0a9nKSqIDIGzFsKS8Ei8dzkWP6pBPaUaY6g5XyGvUq6c28uZ4mvAdW_GTStKQRnstmn55yIvSwvuI6qoB2c5gahv7_rPXT_ws9AduVT1weVcM8hL0A-J8q2zzSbSo9NMSoch3mS8r2Hcsm5ZXKh" />
+                            <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkjzTzfj3CwOnQnCMSvbLIkYvIvGW9M_et1_8F2AC1B0MrYegPHsVjV2wvusvaurgFBXcU9vYWmVRZn_uBb5BR0_qluDhZN6tmYhnENKclIGvIPP1z15N4qkQWD0a9nKSqIDIGzFsKS8Ei8dzkWP6pBPaUaY6g5XyGvUq6c28uZ4mvAdW_GTStKQRnstmn55yIvSwvuI6qoB2c5gahv7_rPXT_ws9AduVT1weVcM8hL0A-J8q2zzSbSo9NMSoch3mS8r2Hcsm5ZXKh" alt="Profile" className="w-10 h-10 rounded-full border-2 border-slate-200 dark:border-slate-700" width={600} height={400} />
                         </div>
                     </div>
                 </header>

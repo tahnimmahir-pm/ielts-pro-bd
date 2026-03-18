@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,10 +13,12 @@ export default function Navbar() {
                 <div className="flex justify-between items-center h-20">
                     <div className="flex items-center gap-3 shrink-0">
                         <Link href="/" className="flex items-center gap-3 shrink-0">
-                            <img
+                            <Image
                                 alt="IELTS PRO BD Logo"
                                 className="h-12 w-12 object-contain"
                                 src="/logo.png"
+                                width={48}
+                                height={48}
                             />
                             <span className="font-bold text-2xl tracking-tight text-primary whitespace-nowrap">
                                 IELTS Pro BD
@@ -186,11 +189,7 @@ export default function Navbar() {
                 <div className="absolute right-0 top-0 h-full w-4/5 max-w-sm bg-white dark:bg-slate-900 shadow-2xl flex flex-col pt-6 pb-8 px-6 overflow-y-auto">
                     <div className="flex justify-between items-center mb-8">
                         <Link href="/" className="flex items-center gap-3 shrink-0" onClick={() => setIsMobileMenuOpen(false)}>
-                            <img
-                                alt="IELTS PRO BD Logo"
-                                className="h-10 w-10 object-contain"
-                                src="/logo.png"
-                            />
+                            <Image src="/logo.png" alt="IELTS PRO BD Logo" className="h-10 w-10 object-contain" width={600} height={400} />
                             <span className="font-bold text-xl tracking-tight text-primary">IELTS Pro BD</span>
                         </Link>
                         <button

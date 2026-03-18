@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default async function TipPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -33,7 +34,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                     <div className="flex items-center gap-4 mb-10 pb-10 border-b border-slate-100 dark:border-slate-800">
                         <div className="w-12 h-12 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden ring-2 ring-emerald-500/20 p-0.5">
                             <div className="w-full h-full rounded-full overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" />
+                                <Image src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" width={600} height={400} />
                             </div>
                         </div>
                         <div>
@@ -53,11 +54,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
 
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-2xl relative border border-slate-200 dark:border-slate-800">
-                        <img 
-                            src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1600&auto=format&fit=crop" 
-                            alt="Featured Tip Image" 
-                            className="w-full h-full object-cover"
-                        />
+                        <Image src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1600&auto=format&fit=crop" alt="Featured Tip Image" className="w-full h-full object-cover" width={600} height={400} />
                     </div>
                 </div>
             </section>
@@ -79,7 +76,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                             </p>
 
                             <blockquote className="border-l-4 border-emerald-500 bg-emerald-500/5 p-6 rounded-r-xl my-8 italic text-slate-700 dark:text-slate-300 font-medium">
-                                "Skim for the main idea, scan for specific details, but read carefully to finalize your answer."
+                                &quot;Skim for the main idea, scan for specific details, but read carefully to finalize your answer.&quot;
                             </blockquote>
 
                             <div className="my-10 w-full h-px bg-slate-200 dark:bg-slate-800"></div>
@@ -104,7 +101,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
 
                             <h2 className="text-3xl font-display font-bold text-slate-900 dark:text-white mt-12 mb-6">How to Scan like a Pro</h2>
                             <p>
-                                Scanning is exactly what you do when you're looking for a name in a phone book. You don't read every entry; you let your eyes glide over the text until they lock onto a specific shape or trigger word.
+                                Scanning is exactly what you do when you&apos;re looking for a name in a phone book. You don&apos;t read every entry; you let your eyes glide over the text until they lock onto a specific shape or trigger word.
                             </p>
 
                             <ul className="grid grid-cols-2 gap-3 my-6 pl-4 font-medium text-slate-600 dark:text-slate-400">
@@ -121,13 +118,13 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     <span className="material-symbols-outlined text-emerald-500 mr-2">search</span>
                                     Scanning Exercise
                                 </h4>
-                                <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm font-bold">SCAN THE TEXT BELOW FOR 'Dr. Harrison':</p>
+                                <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm font-bold">SCAN THE TEXT BELOW FOR &apos;Dr. Harrison&apos;:</p>
                                 <div className="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-700 rounded-xl text-slate-500 dark:text-slate-400 shadow-sm leading-relaxed">
-                                    The early theories of cognitive mapping were heavily debated in academic circles. It wasn't until the groundbreaking research conducted by <span className="font-bold text-slate-900 dark:text-white bg-emerald-500/20 px-1 rounded">Dr. Harrison</span> in 1984 that mainstream psychology began to adopt these spatial awareness mapping models as fundamental cognitive structures.
+                                    The early theories of cognitive mapping were heavily debated in academic circles. It wasn&apos;t until the groundbreaking research conducted by <span className="font-bold text-slate-900 dark:text-white bg-emerald-500/20 px-1 rounded">Dr. Harrison</span> in 1984 that mainstream psychology began to adopt these spatial awareness mapping models as fundamental cognitive structures.
                                 </div>
                                 <div className="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-700 rounded-xl mt-4 shadow-sm">
-                                    <p className="font-bold text-slate-900 dark:text-white mb-2"><span className="text-emerald-500 mr-2 leading-none">Insight:</span> Notice how your eye automatically jumps to the capitalized 'D' and 'H'.</p>
-                                    <p className="text-slate-600 dark:text-slate-400 text-sm">That is scanning in action. You did not need to understand 'cognitive mapping' to find the name.</p>
+                                    <p className="font-bold text-slate-900 dark:text-white mb-2"><span className="text-emerald-500 mr-2 leading-none">Insight:</span> Notice how your eye automatically jumps to the capitalized &apos;D&apos; and &apos;H&apos;.</p>
+                                    <p className="text-slate-600 dark:text-slate-400 text-sm">That is scanning in action. You did not need to understand &apos;cognitive mapping&apos; to find the name.</p>
                                 </div>
                             </div>
 
@@ -171,7 +168,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 1 */}
                                     <Link href="/tips/reading/true-false-not-given" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -183,7 +180,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 2 */}
                                     <Link href="/tips/reading/matching-headings" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -195,7 +192,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 3 */}
                                     <Link href="/tips/reading/time-management" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">

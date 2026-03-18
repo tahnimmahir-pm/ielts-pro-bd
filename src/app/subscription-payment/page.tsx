@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
@@ -68,7 +69,7 @@ export default function SubscriptionPaymentPage() {
                         <label className="cursor-pointer flex flex-col items-center gap-2 pb-3 border-b-2 border-primary text-primary transition-colors">
                             <div className="h-10 w-10 bg-slate-100 rounded-lg flex items-center justify-center overflow-hidden">
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img alt="bKash Logo" src="https://download.logo.wine/logo/BKash/BKash-Icon-Logo.wine.png" className="object-cover" />
+                                <Image src="https://download.logo.wine/logo/BKash/BKash-Icon-Logo.wine.png" alt="bKash Logo" className="object-cover" width={600} height={400} />
                             </div>
                             <div className="flex items-center gap-1.5">
                                 <input type="radio" name="payment_method" value="bkash" className="text-primary focus:ring-primary h-3.5 w-3.5" defaultChecked />
@@ -78,7 +79,7 @@ export default function SubscriptionPaymentPage() {
                         <label className="cursor-pointer flex flex-col items-center gap-2 pb-3 border-b-2 border-transparent text-slate-400 hover:text-slate-600 transition-colors">
                             <div className="h-10 w-10 bg-slate-100 rounded-lg flex items-center justify-center p-0.5 object-contain overflow-hidden">
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img alt="Nagad Logo" src="https://download.logo.wine/logo/Nagad/Nagad-Logo.wine.png" className="w-full h-full object-contain scale-125" />
+                                <Image src="https://download.logo.wine/logo/Nagad/Nagad-Logo.wine.png" alt="Nagad Logo" className="w-full h-full object-contain scale-125" width={600} height={400} />
                             </div>
                             <div className="flex items-center gap-1.5">
                                 <input type="radio" name="payment_method" value="nagad" className="text-primary focus:ring-primary h-3.5 w-3.5" />
@@ -88,7 +89,7 @@ export default function SubscriptionPaymentPage() {
                         <label className="cursor-pointer flex flex-col items-center gap-2 pb-3 border-b-2 border-transparent text-slate-400 hover:text-slate-600 transition-colors">
                             <div className="h-10 w-10 bg-slate-100 rounded-lg flex items-center justify-center p-1 object-contain overflow-hidden">
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img alt="Rocket Logo" src="https://backend.shurjopay.com/logo/rocket.png" className="w-full h-full object-contain" />
+                                <Image src="https://backend.shurjopay.com/logo/rocket.png" alt="Rocket Logo" className="w-full h-full object-contain" width={600} height={400} />
                             </div>
                             <div className="flex items-center gap-1.5">
                                 <input type="radio" name="payment_method" value="rocket" className="text-primary focus:ring-primary h-3.5 w-3.5" />

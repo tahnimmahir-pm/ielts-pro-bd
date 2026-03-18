@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default async function CourseDetailsPage({ params }: { params: Promise<{ id: string }> }) {
@@ -63,11 +64,7 @@ export default async function CourseDetailsPage({ params }: { params: Promise<{ 
                                 <h2 className="text-2xl font-extrabold text-slate-900 dark:text-white mb-6">Course Instructor</h2>
                                 <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-6">
                                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                                    <img
-                                        src="https://ui-avatars.com/api/?name=Hasan+Mahmud&background=0D8ABC&color=fff&size=200"
-                                        alt="Instructor"
-                                        className="w-24 h-24 rounded-full border-4 border-slate-100 dark:border-slate-700 shadow-md flex-shrink-0 object-cover"
-                                    />
+                                    <Image src="https://ui-avatars.com/api/?name=Hasan+Mahmud&background=0D8ABC&color=fff&size=200" alt="Instructor" className="w-24 h-24 rounded-full border-4 border-slate-100 dark:border-slate-700 shadow-md flex-shrink-0 object-cover" width={600} height={400} />
                                     <div className="text-center sm:text-left">
                                         <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-1">Hasan Mahmud</h3>
                                         <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 font-medium">Founder of IELTS PRO BD | Ex-British Council Examiner</p>
@@ -166,11 +163,7 @@ export default async function CourseDetailsPage({ params }: { params: Promise<{ 
                                 {/* Video Thumbnail Section */}
                                 <div className="relative w-full aspect-video bg-slate-900 group cursor-pointer border-b border-slate-100 dark:border-slate-700 overflow-hidden">
                                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                                    <img
-                                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                        alt="Course Thumbnail"
-                                        className="w-full h-full object-cover opacity-80 group-hover:opacity-90 transition-opacity"
-                                    />
+                                    <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Course Thumbnail" className="w-full h-full object-cover opacity-80 group-hover:opacity-90 transition-opacity" width={600} height={400} />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform">
                                             <span className="material-symbols-outlined text-emerald-500 text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>play_arrow</span>
@@ -189,7 +182,7 @@ export default async function CourseDetailsPage({ params }: { params: Promise<{ 
                                     {/* Thumbs mimicking the reference ui */}
                                     <div className="w-12 h-8 rounded border-2 border-emerald-500 overflow-hidden relative opacity-100 cursor-pointer">
                                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="thumb1" className="w-full h-full object-cover" />
+                                        <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="thumb1" className="w-full h-full object-cover" width={600} height={400} />
                                         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                                             <div className="w-3 h-3 bg-white rounded-full flex items-center justify-center">
                                                 <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
@@ -204,7 +197,7 @@ export default async function CourseDetailsPage({ params }: { params: Promise<{ 
                                     </div>
                                     <div className="w-12 h-8 rounded border-2 border-transparent hover:border-slate-300 dark:hover:border-slate-500 overflow-hidden relative opacity-60 hover:opacity-100 cursor-pointer">
                                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="thumb2" className="w-full h-full object-cover" />
+                                        <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="thumb2" className="w-full h-full object-cover" width={600} height={400} />
                                         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                                             <div className="w-3 h-3 bg-white rounded-full flex items-center justify-center">
                                                 <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>

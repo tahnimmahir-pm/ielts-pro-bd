@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -122,11 +123,7 @@ export default function Home() {
             </div>
 
             <div className="hidden lg:block lg:w-1/2 relative">
-              <img
-                src="/hero img.png"
-                alt="IELTS Preparation"
-                className="w-full object-contain animate-[float_4s_ease-in-out_infinite] drop-shadow-2xl"
-              />
+              <Image src="/hero img.png" alt="IELTS Preparation" className="w-full object-contain animate-[float_4s_ease-in-out_infinite] drop-shadow-2xl" width={600} height={400} />
               <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full -z-10 scale-75"></div>
             </div>
           </div>
@@ -310,11 +307,7 @@ export default function Home() {
               <div key={group} className="flex gap-8">
                 <div className="min-w-[350px] bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700 w-[350px]">
                   <div className="h-48 relative">
-                    <img
-                      alt="Listening Test"
-                      className="w-full h-full object-cover"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuBapXVaXnq03PRJwX0H6knAnDpi54umY3H5M3427_Bb_Lge21ugD43UI8Y2sF-rUHJ-3GQTC4vUQCNZC70OpxHlzpYgX5PSndvpOn_XwJ9TiJGTLlsq_nXLTjrplQGSWR7YqbmXuP1YZoGM-ujejH-8f6e2lVTXFuH5pgxCKMJq2vXLU2AIY_MDwdGngqyauf5lfY5GHU34F3n6a_J5SDeGLf6xG-kOB_ueiX5zh4L2xAetF911eXJkvSjWyg7Yl24GTqqm8Ff8emYk"
-                    />
+                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuBapXVaXnq03PRJwX0H6knAnDpi54umY3H5M3427_Bb_Lge21ugD43UI8Y2sF-rUHJ-3GQTC4vUQCNZC70OpxHlzpYgX5PSndvpOn_XwJ9TiJGTLlsq_nXLTjrplQGSWR7YqbmXuP1YZoGM-ujejH-8f6e2lVTXFuH5pgxCKMJq2vXLU2AIY_MDwdGngqyauf5lfY5GHU34F3n6a_J5SDeGLf6xG-kOB_ueiX5zh4L2xAetF911eXJkvSjWyg7Yl24GTqqm8Ff8emYk" alt="Listening Test" className="w-full h-full object-cover" width={600} height={400} />
                     <span className="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
                       Intermediate
                     </span>
@@ -339,11 +332,7 @@ export default function Home() {
 
                 <div className="min-w-[350px] bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700 w-[350px]">
                   <div className="h-48 relative">
-                    <img
-                      alt="Reading Practice"
-                      className="w-full h-full object-cover"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz4UVAr7AeMXnxI1AlLvVvtp2IBhFUcmF3lyn4siX5NR_RxN7lTScNRwaMtAH15RewPffbNfHN8LmBLN6aRnUQP_2B_vsArWf2deccSoeFgrzheS9I3KtbConvy_X8C4knj7fbGBK0tiOdkdTzhMtw34pfEO7qt7Z8dtgjon4Ra8VM9DwaPTrXnvKAgnQsqvcY26ZOaXydsvQuIQq0engKpALiE1fJ2QP1vE71Or-3Xqq74dqs6vfwvxGFg267S5VqwhuBQW6l6gyH"
-                    />
+                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz4UVAr7AeMXnxI1AlLvVvtp2IBhFUcmF3lyn4siX5NR_RxN7lTScNRwaMtAH15RewPffbNfHN8LmBLN6aRnUQP_2B_vsArWf2deccSoeFgrzheS9I3KtbConvy_X8C4knj7fbGBK0tiOdkdTzhMtw34pfEO7qt7Z8dtgjon4Ra8VM9DwaPTrXnvKAgnQsqvcY26ZOaXydsvQuIQq0engKpALiE1fJ2QP1vE71Or-3Xqq74dqs6vfwvxGFg267S5VqwhuBQW6l6gyH" alt="Reading Practice" className="w-full h-full object-cover" width={600} height={400} />
                     <span className="absolute top-4 right-4 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">
                       Advanced
                     </span>
@@ -366,11 +355,7 @@ export default function Home() {
 
                 <div className="min-w-[350px] bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700 w-[350px]">
                   <div className="h-48 relative">
-                    <img
-                      alt="Speaking Module"
-                      className="w-full h-full object-cover"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBiBY9jOXpQJ4aa6Kd93zNzvfpmaTqovMnpjmJ_jwX8R0kTu2nR8vdvC7xgMJd3tqGPILX67tPAuYUv--deAqWoJDewC53RU8Y-PIXzYVhlhYKV3MMYI5oCRtks56SsBs0R9XfLY71r07VfSIM3V0uXwBGSxLbLUF5o0hFtzywrTJKaZZhn2saO3Wx10MMcHUeqGcQA8GQjERpCcVMxbsxQm8iOoWIBEY8d5-fvCT4QUY2Ihh34fAozpoD9F0bfFn5fLr4136q4SLT"
-                    />
+                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBiBY9jOXpQJ4aa6Kd93zNzvfpmaTqovMnpjmJ_jwX8R0kTu2nR8vdvC7xgMJd3tqGPILX67tPAuYUv--deAqWoJDewC53RU8Y-PIXzYVhlhYKV3MMYI5oCRtks56SsBs0R9XfLY71r07VfSIM3V0uXwBGSxLbLUF5o0hFtzywrTJKaZZhn2saO3Wx10MMcHUeqGcQA8GQjERpCcVMxbsxQm8iOoWIBEY8d5-fvCT4QUY2Ihh34fAozpoD9F0bfFn5fLr4136q4SLT" alt="Speaking Module" className="w-full h-full object-cover" width={600} height={400} />
                     <span className="absolute top-4 right-4 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                       Beginner
                     </span>
@@ -393,11 +378,7 @@ export default function Home() {
 
                 <div className="min-w-[350px] bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700 w-[350px]">
                   <div className="h-48 relative">
-                    <img
-                      alt="Writing Task"
-                      className="w-full h-full object-cover"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVcJ5GUioTCfEaMWEeDsE4HoYCA-U_WyYH6W8nwlsLLBA9Ri5HqOF9nJnx0jNbd0kdi5neMabIOt1lu__75QO8HjjvomRE-XnZNAqUY9Cx_o-UoDkGfLMlCi3c1i5ACgcUVBWeYz0w59ZvLNrtYbrfvFVLJ76B3uHfwvJ64bWqTrELmjApjtX8_hQ__wso5A0Eqzu4V9W8FN020-46cNxBRO2pFoWVNpfIGjyfacTet0ux2HCxKgAs39m-0u5E-R71hR49ZmQMhtfY"
-                    />
+                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVcJ5GUioTCfEaMWEeDsE4HoYCA-U_WyYH6W8nwlsLLBA9Ri5HqOF9nJnx0jNbd0kdi5neMabIOt1lu__75QO8HjjvomRE-XnZNAqUY9Cx_o-UoDkGfLMlCi3c1i5ACgcUVBWeYz0w59ZvLNrtYbrfvFVLJ76B3uHfwvJ64bWqTrELmjApjtX8_hQ__wso5A0Eqzu4V9W8FN020-46cNxBRO2pFoWVNpfIGjyfacTet0ux2HCxKgAs39m-0u5E-R71hR49ZmQMhtfY" alt="Writing Task" className="w-full h-full object-cover" width={600} height={400} />
                     <span className="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
                       All Levels
                     </span>
@@ -545,11 +526,7 @@ export default function Home() {
               >
                 <div className="bg-white rounded-3xl p-10 md:p-12 text-slate-800 shadow-2xl relative">
                   <div className="absolute -top-12 left-1/2 -translate-x-1/2">
-                    <img
-                      src={review.image}
-                      alt={review.name}
-                      className="w-24 h-24 rounded-full border-4 border-white shadow-xl object-cover"
-                    />
+                    <Image src={review.image} alt={review.name} className="w-24 h-24 rounded-full border-4 border-white shadow-xl object-cover" width={600} height={400} />
                   </div>
 
                   <div className="pt-8 text-center">

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
@@ -18,9 +19,7 @@ export default function ListeningPage() {
                             {/* Card 1 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop"
-                                        alt="Academic Reading"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Academic Reading" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -34,9 +33,7 @@ export default function ListeningPage() {
                             {/* Card 2 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop"
-                                        alt="Speaking Module"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop" alt="Speaking Module" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full uppercase">Beginner</span>
                                 </div>
                                 <div className="p-2">
@@ -50,9 +47,7 @@ export default function ListeningPage() {
                             {/* Card 3 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Writing Task 1 & 2"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop" alt="Writing Task 1 & 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-primary text-white text-[10px] font-bold rounded-full uppercase">All Levels</span>
                                 </div>
                                 <div className="p-2">
@@ -66,9 +61,7 @@ export default function ListeningPage() {
                             {/* Card 4 */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1557133373-2efaad0bd50a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Listening Mastery"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Listening Mastery" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -82,9 +75,7 @@ export default function ListeningPage() {
                             {/* Duplicate set for seamless loop */}
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop"
-                                        alt="Academic Reading"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Academic Reading" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -97,9 +88,7 @@ export default function ListeningPage() {
                             </div>
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop"
-                                        alt="Speaking Module"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop" alt="Speaking Module" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full uppercase">Beginner</span>
                                 </div>
                                 <div className="p-2">
@@ -112,9 +101,7 @@ export default function ListeningPage() {
                             </div>
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Writing Task 1 & 2"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop" alt="Writing Task 1 & 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-primary text-white text-[10px] font-bold rounded-full uppercase">All Levels</span>
                                 </div>
                                 <div className="p-2">
@@ -127,9 +114,7 @@ export default function ListeningPage() {
                             </div>
                             <div className="w-[200px] shrink-0 mx-2 group bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 rounded-2xl p-3 transition-all duration-300 hover:shadow-xl hover:border-primary/20">
                                 <div className="relative rounded-xl overflow-hidden aspect-video bg-slate-100 dark:bg-slate-800">
-                                    <img src="https://images.unsplash.com/photo-1557133373-2efaad0bd50a?q=80&w=600&auto=format&fit=crop"
-                                        alt="Listening Mastery"
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <Image src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" alt="Listening Mastery" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={400} />
                                     <span className="absolute top-2 right-2 px-2 py-0.5 bg-secondary text-white text-[10px] font-bold rounded-full uppercase">Advanced</span>
                                 </div>
                                 <div className="p-2">
@@ -212,9 +197,7 @@ export default function ListeningPage() {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrzBRlRg6xC1deSAoe5YcqEvBZyufOQkM1TN0UqBtxldsHQU88It70n7xaJGrkGwYYbeSfpiHTRYBcalKvtgmrURNsh9m2AqVotvcr-wxGYgQtuiYYRuQM-EfFmvLJgVcca4hWxXXjXDhUzX8Jbm4s9--3ETEp1wBOvNkAHAZzQ4venqRNFSD_Molanp1A8ldGlNqdMw0wvtSfOECtAkd6f6FUOg8vSzM1k6Df9EJqz2tBGHDeJZqgvQU9aViKrGRo7pFg-6OFjgo1" />
+                                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrzBRlRg6xC1deSAoe5YcqEvBZyufOQkM1TN0UqBtxldsHQU88It70n7xaJGrkGwYYbeSfpiHTRYBcalKvtgmrURNsh9m2AqVotvcr-wxGYgQtuiYYRuQM-EfFmvLJgVcca4hWxXXjXDhUzX8Jbm4s9--3ETEp1wBOvNkAHAZzQ4venqRNFSD_Molanp1A8ldGlNqdMw0wvtSfOECtAkd6f6FUOg8vSzM1k6Df9EJqz2tBGHDeJZqgvQU9aViKrGRo7pFg-6OFjgo1" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-emerald-500 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Beginner</span>
                                     </div>
@@ -242,9 +225,7 @@ export default function ListeningPage() {
 
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMNw7TRHceN0U0BovNRIIBzr5pD-4rNFSSev9eDS2Fi8uGLRbZ7ZPYl0gXVOq32-TYzl2Baq81UXe2Pnlvptj8mSW_EZgmSPi5h0bcs1UwiZdObdrpXJboA-5YQGlcB5JqWCDtfwKRZs7EJXPopKCmIK3N7neLqdUDy44TuPV5SS3ceL8aHpc-yv95sYHRY4Y4ezrDDu2lPcXgIaa_f-Gl6BSsOKYdrXumV0gyqxaccPLpqfCyN-tVJpCMLXX11LS4rgTBLTv2odG_" />
+                                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMNw7TRHceN0U0BovNRIIBzr5pD-4rNFSSev9eDS2Fi8uGLRbZ7ZPYl0gXVOq32-TYzl2Baq81UXe2Pnlvptj8mSW_EZgmSPi5h0bcs1UwiZdObdrpXJboA-5YQGlcB5JqWCDtfwKRZs7EJXPopKCmIK3N7neLqdUDy44TuPV5SS3ceL8aHpc-yv95sYHRY4Y4ezrDDu2lPcXgIaa_f-Gl6BSsOKYdrXumV0gyqxaccPLpqfCyN-tVJpCMLXX11LS4rgTBLTv2odG_" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-orange-500 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Intermediate</span>
                                     </div>
@@ -272,9 +253,7 @@ export default function ListeningPage() {
 
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEDIFOmR4APASlfPd7wvk40nrmwRBDUW5T60iMOACKzr0-ISMmoqm2kNuFUhDM6SY68dG-0akRztStFqCsydnP7t_nYTXRozABqT30ZkwcrcIsdETlvTCCHMhqHBYJwhuBmrEd6KW4Y1i0nldiYtUZFpr01fGbknPNL-HVo3bV7Bp7LRRLlPeotIN2_aa_8fP4VtC_gVyv0hCK9DFW7S-y7m7vcpAMgWpKgbiWZSvNPCvhxvYzi5fRnUU5GNJDQXXFvTqFrYskkHFU" />
+                                    <Image priority src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEDIFOmR4APASlfPd7wvk40nrmwRBDUW5T60iMOACKzr0-ISMmoqm2kNuFUhDM6SY68dG-0akRztStFqCsydnP7t_nYTXRozABqT30ZkwcrcIsdETlvTCCHMhqHBYJwhuBmrEd6KW4Y1i0nldiYtUZFpr01fGbknPNL-HVo3bV7Bp7LRRLlPeotIN2_aa_8fP4VtC_gVyv0hCK9DFW7S-y7m7vcpAMgWpKgbiWZSvNPCvhxvYzi5fRnUU5GNJDQXXFvTqFrYskkHFU" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-primary text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Advanced</span>
                                     </div>
@@ -302,9 +281,7 @@ export default function ListeningPage() {
 
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnumrahKvvWAR0NEZOxNTFx8ZtGKAOvvqtUoOE7DTHD_irdwhXLMXaSzIk1iEM19cydX5TMEqR2EVWwe4kGGpiWviJ661sk5xF9OdQ0ejHuJFZIKjUezhi6JAIk5Qo-OxVNitjgnuTkFB-6zVv4im-WvAKd9wxu0q1d94fpAK9TD-EZmcteY7UUiJznBO_WI0_xASKMwNkX7wkkf93aU3_42Ie984VhSTp5R-pHWRWc5S1gtIXPUlOP5zUXoUTJ5PJt1yEQNUZxpyP" />
+                                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnumrahKvvWAR0NEZOxNTFx8ZtGKAOvvqtUoOE7DTHD_irdwhXLMXaSzIk1iEM19cydX5TMEqR2EVWwe4kGGpiWviJ661sk5xF9OdQ0ejHuJFZIKjUezhi6JAIk5Qo-OxVNitjgnuTkFB-6zVv4im-WvAKd9wxu0q1d94fpAK9TD-EZmcteY7UUiJznBO_WI0_xASKMwNkX7wkkf93aU3_42Ie984VhSTp5R-pHWRWc5S1gtIXPUlOP5zUXoUTJ5PJt1yEQNUZxpyP" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-emerald-500 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Beginner</span>
                                     </div>
@@ -332,9 +309,7 @@ export default function ListeningPage() {
 
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_jhSkB_keirXJmGKwfrec0bf5GvabE_ACBIhxqO8XhKJ_Yzch8KDlKhwrP7K1IASXC5bLCA0TVYtrEoSDPmxFbXc_nypMvFC9Dqb2nAgFZg54oftvFfBWg80IqkC06GqQrr349dJb_5HX8B1htGb6B0nAdl8WiE15mwfAUAAdYiZ1rX79bXKzf1NlHrvnralRW7Vo-9L0JxedqCPnfE4rpM_yxKrXSf7gJ-TyI9Bk2hT7omAlAYIrZkWfCvVe7r6tvYJxutDyHZV-" />
+                                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_jhSkB_keirXJmGKwfrec0bf5GvabE_ACBIhxqO8XhKJ_Yzch8KDlKhwrP7K1IASXC5bLCA0TVYtrEoSDPmxFbXc_nypMvFC9Dqb2nAgFZg54oftvFfBWg80IqkC06GqQrr349dJb_5HX8B1htGb6B0nAdl8WiE15mwfAUAAdYiZ1rX79bXKzf1NlHrvnralRW7Vo-9L0JxedqCPnfE4rpM_yxKrXSf7gJ-TyI9Bk2hT7omAlAYIrZkWfCvVe7r6tvYJxutDyHZV-" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-orange-500 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Intermediate</span>
                                     </div>
@@ -362,9 +337,7 @@ export default function ListeningPage() {
 
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdPxYNfAd9hrRXgv3snVNeTZzkSrUbslbjDyA9ZG_r3rH5HfyGjt5aCVRibOce7FZCpSvIWfckwoOkiPwlWayI9KoCCjHA_BiaiPYvnEe61Pe0egX9ExXy49kK-H4fGkyT575Sb3PLBEQIjJtYtx6vLxOnHYIAXbf7XE6TaCcWtXIlffOtylDpUNreRLKov1uN435kCIyrSUBHY-UU8uJLaeMx_G1farD901pem-OLezAJs3beifRazJhQKxpjt0naXUmNVY1yaBPg" />
+                                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdPxYNfAd9hrRXgv3snVNeTZzkSrUbslbjDyA9ZG_r3rH5HfyGjt5aCVRibOce7FZCpSvIWfckwoOkiPwlWayI9KoCCjHA_BiaiPYvnEe61Pe0egX9ExXy49kK-H4fGkyT575Sb3PLBEQIjJtYtx6vLxOnHYIAXbf7XE6TaCcWtXIlffOtylDpUNreRLKov1uN435kCIyrSUBHY-UU8uJLaeMx_G1farD901pem-OLezAJs3beifRazJhQKxpjt0naXUmNVY1yaBPg" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-primary text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Advanced</span>
                                     </div>
@@ -392,9 +365,7 @@ export default function ListeningPage() {
 
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxVfoCdy4iSmSKBa6XfcEb0eni5kg7EtUMhiE-B7t1CDxQfmwxA6dMY2gVi1PfXM5tIYSC-jR09aMhze3bskMtL4vP1toWzK_Nj6zVNi8pnJM7Nut4uThRfQgfQhYJmUw8pG6wXpxgxFXfJLr5liQR8h2ZNUP_1-PtdkgM2xcU_CoBVKePoDDsQf7_-Vr1LNw-fpuQXMdcaQGIZwfhPq0I3hr59KkaRhlpzMx0OlE68V3qkJkigISyezQ5-WrIazRyjH-ce7BzR1tT" />
+                                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxVfoCdy4iSmSKBa6XfcEb0eni5kg7EtUMhiE-B7t1CDxQfmwxA6dMY2gVi1PfXM5tIYSC-jR09aMhze3bskMtL4vP1toWzK_Nj6zVNi8pnJM7Nut4uThRfQgfQhYJmUw8pG6wXpxgxFXfJLr5liQR8h2ZNUP_1-PtdkgM2xcU_CoBVKePoDDsQf7_-Vr1LNw-fpuQXMdcaQGIZwfhPq0I3hr59KkaRhlpzMx0OlE68V3qkJkigISyezQ5-WrIazRyjH-ce7BzR1tT" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-orange-500 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Intermediate</span>
                                     </div>
@@ -422,9 +393,7 @@ export default function ListeningPage() {
 
                             <div className="group bg-white dark:bg-surface-dark rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/30">
                                 <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                                    <img alt="IELTS Listening Test"
-                                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
-                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCio_ytjDaLrAyhPS9fj-cYO6F5BaEpVHM74gMiZCAtY-cG2SZIdXRdE0bhhh0DYEuGpeWQTM_9NUcAO9Eok1chdOWOgcDq74aHJFV2d0hTO3PpgweERSdxlXXd0JD5ROufVGSWzDhvAOQoJGcSXnloXTBI6pQeSgquCcwBiP1AxVMq_teeDyh4bak9HxE-WDBcYuHbZrmVEOMXPAiJ0qTXuBneP_NUfqOMFCYe4gSVdidII4hStmfnm7-HeIkQmfo9I5fnCvP59m02" />
+                                    <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuCio_ytjDaLrAyhPS9fj-cYO6F5BaEpVHM74gMiZCAtY-cG2SZIdXRdE0bhhh0DYEuGpeWQTM_9NUcAO9Eok1chdOWOgcDq74aHJFV2d0hTO3PpgweERSdxlXXd0JD5ROufVGSWzDhvAOQoJGcSXnloXTBI6pQeSgquCcwBiP1AxVMq_teeDyh4bak9HxE-WDBcYuHbZrmVEOMXPAiJ0qTXuBneP_NUfqOMFCYe4gSVdidII4hStmfnm7-HeIkQmfo9I5fnCvP59m02" alt="IELTS Listening Test" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                     <div className="absolute top-4 left-4">
                                         <span className="bg-emerald-500 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-lg">Beginner</span>
                                     </div>

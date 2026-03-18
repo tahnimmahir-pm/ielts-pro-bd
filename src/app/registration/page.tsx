@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
@@ -64,11 +65,7 @@ export default function RegistrationPage() {
                         <div className="p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
                             <div className="flex items-center gap-4 mb-3">
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img
-                                    alt="Student Success"
-                                    className="w-12 h-12 rounded-full border-2 border-primary object-cover"
-                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6brNfpFFPq5ViVOYZUchzxSXPc5iFL2pOh_8rd0O5k0zeptWyY2XeZN6qDFTphkMc00Vuv80G8OEtdx8WeugGftQbYv6z356PTcoTWiNGibjavs8hZ5Q-tTVKgP0FG2ryvpzaiU_BG9YblYE1OaGRiN5_CWHknLuCoPfCoI3zVVCMrnUijqGTuHGK3ZTVGyUbGresPiiCSilrNBc58HfdAMajsyb7yYilo1DuwL4MWmqaIkvbN_A9cLz-dvlYP-g0qTW0CX_M5CY_"
-                                />
+                                <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6brNfpFFPq5ViVOYZUchzxSXPc5iFL2pOh_8rd0O5k0zeptWyY2XeZN6qDFTphkMc00Vuv80G8OEtdx8WeugGftQbYv6z356PTcoTWiNGibjavs8hZ5Q-tTVKgP0FG2ryvpzaiU_BG9YblYE1OaGRiN5_CWHknLuCoPfCoI3zVVCMrnUijqGTuHGK3ZTVGyUbGresPiiCSilrNBc58HfdAMajsyb7yYilo1DuwL4MWmqaIkvbN_A9cLz-dvlYP-g0qTW0CX_M5CY_" alt="Student Success" className="w-12 h-12 rounded-full border-2 border-primary object-cover" width={600} height={400} />
                                 <div>
                                     <p className="font-bold">Faisal Karim</p>
                                     <p className="text-xs text-slate-400">Scored Band 8.5 in 2 months</p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default async function TipPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -33,7 +34,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                     <div className="flex items-center gap-4 mb-10 pb-10 border-b border-slate-100 dark:border-slate-800">
                         <div className="w-12 h-12 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden ring-2 ring-amber-500/20 p-0.5">
                             <div className="w-full h-full rounded-full overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" />
+                                <Image src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop" alt="Author Profile" className="w-full h-full object-cover" width={600} height={400} />
                             </div>
                         </div>
                         <div>
@@ -53,11 +54,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
 
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="aspect-[21/9] w-full rounded-3xl overflow-hidden shadow-2xl relative border border-slate-200 dark:border-slate-800">
-                        <img 
-                            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1600&auto=format&fit=crop" 
-                            alt="Featured Tip Image" 
-                            className="w-full h-full object-cover"
-                        />
+                        <Image src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1600&auto=format&fit=crop" alt="Featured Tip Image" className="w-full h-full object-cover" width={600} height={400} />
                     </div>
                 </div>
             </section>
@@ -70,16 +67,16 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                         <article className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed space-y-6">
                             
                             <p className="text-xl text-slate-600 dark:text-slate-400 font-medium pb-2 border-b-2 border-amber-500/20 inline-block mb-4">
-                                Part 2 of the Speaking test—often called the "long turn" or the "cue card" section—is where most candidates hit a mental wall. Staring at the examiner in silence after 45 seconds is everyone's worst nightmare.
+                                Part 2 of the Speaking test—often called the &quot;long turn&quot; or the &quot;cue card&quot; section—is where most candidates hit a mental wall. Staring at the examiner in silence after 45 seconds is everyone&apos;s worst nightmare.
                             </p>
 
                             <h2 className="text-3xl font-display font-bold text-slate-900 dark:text-white mt-10 mb-4">The Truth About the Cue Card</h2>
                             <p>
-                                The prompt gives you a topic (e.g., "Describe a memorable journey") and three bullet points to guide you. What most test-takers don't realize is that <strong className="text-slate-900 dark:text-white">you do not have to strictly stick to the bullet points.</strong> They are suggestions, not strict requirements.
+                                The prompt gives you a topic (e.g., &quot;Describe a memorable journey&quot;) and three bullet points to guide you. What most test-takers don&apos;t realize is that <strong className="text-slate-900 dark:text-white">you do not have to strictly stick to the bullet points.</strong> They are suggestions, not strict requirements.
                             </p>
 
                             <blockquote className="border-l-4 border-amber-500 bg-amber-500/5 p-6 rounded-r-xl my-8 italic text-slate-700 dark:text-slate-300 font-medium">
-                                "The examiner is assessing your fluency, vocabulary, grammar, and pronunciation. They are not grading you on how many bullet points you checked off."
+                                &quot;The examiner is assessing your fluency, vocabulary, grammar, and pronunciation. They are not grading you on how many bullet points you checked off.&quot;
                             </blockquote>
 
                             <div className="my-10 w-full h-px bg-slate-200 dark:bg-slate-800"></div>
@@ -88,7 +85,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                             
                             <h3 className="text-xl font-bold text-slate-900 dark:text-white mt-8 mb-3 flex items-center">
                                 <span className="bg-amber-500/20 text-amber-600 dark:text-amber-500 w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">1</span>
-                                The "Past, Present, Future" Strategy
+                                The &quot;Past, Present, Future&quot; Strategy
                             </h3>
                             <p>
                                 If you finish answering the bullet points early, bridge your topic into different timeframes. Talk about how your experience with the topic was in the past, how it is now, and how you imagine it in the future.
@@ -99,7 +96,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                 Use the W-H Questions Framework
                             </h3>
                             <p>
-                                Expand any single bullet point by asking yourself: Who? What? Where? When? Why? How? Instead of just saying "I went with my brother," say "I went with my younger brother, who had actually never been on an airplane before, so I had to spend the first two hours just calming his nerves."
+                                Expand any single bullet point by asking yourself: Who? What? Where? When? Why? How? Instead of just saying &quot;I went with my brother,&quot; say &quot;I went with my younger brother, who had actually never been on an airplane before, so I had to spend the first two hours just calming his nerves.&quot;
                             </p>
 
                             <h3 className="text-xl font-bold text-slate-900 dark:text-white mt-8 mb-3 flex items-center">
@@ -107,7 +104,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                 Tell a Story
                             </h3>
                             <p>
-                                Human brains are wired for narratives. Storytelling naturally strings sentences together logically and invites complex grammar (like past continuous and past perfect tenses). Don't just list facts; tell a mini-story about feelings, reactions, and outcomes.
+                                Human brains are wired for narratives. Storytelling naturally strings sentences together logically and invites complex grammar (like past continuous and past perfect tenses). Don&apos;t just list facts; tell a mini-story about feelings, reactions, and outcomes.
                             </p>
 
                             {/* Practical Example Box */}
@@ -117,15 +114,15 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     <span className="material-symbols-outlined text-amber-500 mr-2">record_voice_over</span>
                                     Answer Expansion Exercise
                                 </h4>
-                                <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm font-bold">CUE: "Describe a restaurant you enjoyed visiting."</p>
+                                <p className="text-slate-600 dark:text-slate-400 mb-4 text-sm font-bold">CUE: &quot;Describe a restaurant you enjoyed visiting.&quot;</p>
                                 <div className="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-700 rounded-xl font-medium shadow-sm">
                                     <p className="mb-4">
                                         <span className="text-rose-500 font-bold uppercase text-xs tracking-wider mb-1 block">Rookie Answer (Stops after 10 seconds):</span> 
-                                        "I went to an Italian restaurant downtown. The pizza was very good and the waiters were nice."
+                                        &quot;I went to an Italian restaurant downtown. The pizza was very good and the waiters were nice.&quot;
                                     </p>
                                     <p>
                                         <span className="text-emerald-500 font-bold uppercase text-xs tracking-wider mb-1 block">Band 8+ Answer (Detailed Storytelling):</span> 
-                                        "There's this fantastic, authentic Italian trattoria tucked away in an alley downtown. I actually stumbled upon it completely by accident when trying to avoid a rainstorm last month. What immediately caught my attention wasn't just the incredible aroma of garlic and fresh basil, but the fact that the entire kitchen staff were shouting to each other in rapid Italian, which instantly gave it this wonderful, chaotic charm."
+                                        &quot;There&apos;s this fantastic, authentic Italian trattoria tucked away in an alley downtown. I actually stumbled upon it completely by accident when trying to avoid a rainstorm last month. What immediately caught my attention wasn&apos;t just the incredible aroma of garlic and fresh basil, but the fact that the entire kitchen staff were shouting to each other in rapid Italian, which instantly gave it this wonderful, chaotic charm.&quot;
                                     </p>
                                 </div>
                             </div>
@@ -170,7 +167,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 1 */}
                                     <Link href="/tips/speaking/part-1-small-talk" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -182,7 +179,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 2 */}
                                     <Link href="/tips/speaking/part-3-abstract-discussions" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
@@ -194,7 +191,7 @@ export default async function TipPostPage({ params }: { params: Promise<{ slug: 
                                     {/* Sidebar Item 3 */}
                                     <Link href="/tips/speaking/pronunciation-intonation" className="group flex gap-4">
                                         <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden relative border border-slate-100 dark:border-slate-800">
-                                            <img src="https://images.unsplash.com/photo-1475721025870-2434421b53b8?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                                            <Image src="https://images.unsplash.com/photo-1475721025870-2434421b53b8?q=80&w=200&auto=format&fit=crop" alt="Tip Cover" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" width={600} height={400} />
                                             <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors"></div>
                                         </div>
                                         <div className="flex flex-col justify-center">
